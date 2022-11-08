@@ -1,0 +1,25 @@
+{
+  "_comment1": "Update your appointment date in MON DD, YYYY format",
+  "current_apt_date": "February 18, 2023",
+  "_comment2": "Update your appointment location id",
+  "_comment3": "Location ID can be found here: https://ttp.cbp.dhs.gov/schedulerapi/locations/?temporary=false&inviteOnly=false&operational=true&serviceName=Global%20Entry",
+  "location_id": "5142",
+
+  "_comment4": "Set the below to true if you want SMS notification functionality",
+  "sms_flag": false,
+  "_comment5": "Setup your credentials based on twilio",
+  "twilio_account_sid": "",
+  "twilio_auth_token": "",
+  "twilio_from_number": "",
+  "twilio_to_number": "",
+
+
+  "_comment6": "Set the below to true if you want Email notification functionality",
+  "email_flag": false,
+  "_comment7": "Generate app specific password for your from gmail address",
+  "from_email":"",
+  "from_email_password": "",
+  "to_email": ""
+
+
+}
